@@ -1,19 +1,41 @@
-# Evaluador de Expresiones Postfix
+# Hoja de Trabajo 2: Evaluador Postfix
 
-Implementación de una calculadora que evalúa expresiones matemáticas en notación postfix usando stack.
+## Descripción de Clases
 
-## Estructura
-- `Stack.java`: Interface proporcionada
-- `PilaVector.java`: Implementación usando Vector (Damián)
-- `CalculadoraExpresiones.java`: Interface para evaluación
-- `CalculadoraPostfix.java`: Evaluador de expresiones (Emilio)
-- `Aplicacion.java`: Programa principal (Fátima)
-- `PruebasCalculadora.java`: Tests unitarios (Damián)
+### Stack<E>
+- Interface que define operaciones básicas de pila
+- Proporcionada por el auxiliar
+- Métodos: push(), pop(), peek(), empty(), size()
+
+### PilaVector<E> (Damián)
+- Implementación de Stack usando Vector
+- Estructura dinámica que crece según necesidad
+- Maneja excepciones para pila vacía
+
+### CalculadoraExpresiones
+- Interface que define el contrato común
+- Permite interoperabilidad entre grupos
+- Método: evaluarExpresion()
+
+### CalculadoraPostfix (Emilio)
+- Implementa CalculadoraExpresiones
+- Evalúa expresiones postfix
+- Usa Stack para procesar operandos/operadores
+- Maneja errores matemáticos
+
+### InterpretePostfix (Fátima)
+- Procesa entrada del archivo datos.txt
+- Valida formato y tokens
+- Prepara expresión para evaluación
+
+### Aplicacion (Fátima)
+- Punto de entrada del programa
+- Integra intérprete y calculadora
+- Lee archivo y muestra resultados
+
 
 ## Equipo
-- **Damián**: Estructura de datos (PilaVector) y pruebas unitarias
-- **Emilio**: Lógica de evaluación postfix
-- **Fátima**: Integración y manejo de archivos
+- **Damián**: PilaVector + Testing
+- **Emilio**: CalculadoraPostfix
+- **Fátima**: Intérprete + Aplicación
 
-## Uso
-La calculadora lee expresiones desde `datos.txt` en formato postfix
