@@ -21,13 +21,16 @@ import java.nio.file.Paths;
 
 public class Aplicacion {
     public static void main(String[] args) {
+        InterpretePostfix interprete = new InterpretePostfix();
         CalculadoraExpresiones calc = new CalculadoraPostfix();
         
         try {
-            String expresion = new String(Files.readAllBytes(Paths.get("datos.txt"))).trim();
-            System.out.println("Expresión: " + expresion);
+            String linea = new String(Files.readAllBytes(Paths.get("datos.txt"))).trim();
+            System.out.println("Entrada: " + linea);
             
+            String expresion = interprete.prepararExpresion(linea);
             int resultado = calc.evaluarExpresion(expresion);
+            
             System.out.println("Resultado: " + resultado);
             
         } catch (IOException e) {
