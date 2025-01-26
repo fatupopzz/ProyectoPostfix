@@ -2,11 +2,7 @@ package org.uvg;
 
 /**
 * Interface que define contrato para calculadoras de expresiones
-<<<<<<< HEAD
 * @author Fatima Navarro
-=======
-* @author [Tu Nombre]
->>>>>>> 37dc01e94dadc6ebc6c088b1371a38bc29c1421d
 * @version 1.0 
 */
 interface CalculadoraExpresiones {
@@ -18,8 +14,4 @@ interface CalculadoraExpresiones {
      * @throws ArithmeticException si hay división por cero
      */
     int evaluarExpresion(String expresion);
-<<<<<<< HEAD
-    
-=======
->>>>>>> 37dc01e94dadc6ebc6c088b1371a38bc29c1421d
- }
+}
