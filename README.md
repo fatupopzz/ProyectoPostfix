@@ -1,6 +1,6 @@
 # Evaluador de Expresiones Postfix
 
-Implementación de una calculadora que evalúa expresiones matemáticas en notación postfix.
+Implementación de una calculadora que evalúa expresiones matemáticas en notación postfix usando stack.
 
 ## Estructura
 - `Stack.java`: Interface proporcionada
