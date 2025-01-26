@@ -2,6 +2,8 @@
 
 ## Descripción de Clases
 
+![image](https://github.com/user-attachments/assets/f68b34ca-5528-4bef-ba03-013ed8d53200)
+
 ### Stack<E>
 - Interface que define operaciones básicas de pila
 - Proporcionada por el auxiliar
