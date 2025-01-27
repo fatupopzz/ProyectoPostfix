@@ -9,7 +9,7 @@
 - Proporcionada por el auxiliar
 - Métodos: push(), pop(), peek(), empty(), size()
 
-### PilaVector<E> (Damián)
+### PilaVector<E> (Emilio)
 - Implementación de Stack usando Vector
 - Estructura dinámica que crece según necesidad
 - Maneja excepciones para pila vacía
@@ -19,7 +19,7 @@
 - Permite interoperabilidad entre grupos
 - Método: evaluarExpresion()
 
-### CalculadoraPostfix (Emilio)
+### CalculadoraPostfix (Damian)
 - Implementa CalculadoraExpresiones
 - Evalúa expresiones postfix
 - Usa Stack para procesar operandos/operadores
