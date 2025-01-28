@@ -1,7 +1,7 @@
 package org.uvg;
 
 /**
- * @author Emilio
+ * @author Damián
  * @version 1.0
  * Evaluador de expresiones postfix
  * lee una expresión matemática en notación postfix y la evalúa
