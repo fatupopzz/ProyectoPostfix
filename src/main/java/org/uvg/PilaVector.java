@@ -63,6 +63,6 @@ public class PilaVector<E> implements Stack<E> {
         return Stack.size();
     }
     
-    // ... IMPLEMENTARRRRRJDNGJSEGJ
+    
 }
 
