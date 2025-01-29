@@ -1,4 +1,5 @@
-package main.java.org.uvg;
+package org.uvg;
+import java.util.Stack;
 
 
 /**
@@ -10,7 +11,7 @@ public class InterpretePostfix {
     private Stack<Integer> pila;
 
     public InterpretePostfix() {
-        pila = new PilaVector<>();
+        pila = new Stack<>();
     }
 
     /**

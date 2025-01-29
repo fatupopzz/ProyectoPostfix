@@ -18,7 +18,7 @@ public class PilaVector<E> implements Stack<E> {
 
     public void VectorStack () {
         //contructor de la clase 
-        Stack = new Vector<E>();
+        this.Stack = new Vector<>();
     }
 
     @Override
