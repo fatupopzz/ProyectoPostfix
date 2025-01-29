@@ -51,26 +51,25 @@ public class CalculadoraPostfix implements CalculadoraExpresiones {
         }
         int b = pila.pop();
         int a = pila.pop();
-        int resultado;
+        
         switch (operador) {
             case "+":
-                resultado = a + b;
+                pila.push(a + b);
                 break;
             case "-":
-                resultado = a - b;
+                pila.push(a - b);
                 break;
             case "*":
-                resultado = a * b;
+                pila.push(a * b);
                 break;
             case "/":
                 if (b == 0) {
-                    throw new ArithmeticException("División por cero");
+                    throw new ArithmeticException("División por cero"); // Aseguramos que se lance la excepción
                 }
-                resultado = a / b;
+                pila.push(a / b);
                 break;
             default:
                 throw new IllegalArgumentException("Operador desconocido: " + operador);
         }
-        pila.push(resultado);
     }
 }
