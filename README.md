@@ -4,6 +4,10 @@
 
 ![image](https://github.com/user-attachments/assets/f68b34ca-5528-4bef-ba03-013ed8d53200)
 
+## Diagrama de secuencia 
+
+![image](https://github.com/user-attachments/assets/6f782907-b8be-4076-a1c1-f459c74b768f)
+
 ### Stack<E>
 - Interface que define operaciones básicas de pila
 - Proporcionada por el auxiliar
