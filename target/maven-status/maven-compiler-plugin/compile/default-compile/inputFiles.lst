@@ -1,5 +1,6 @@
-/Users/fatu/ProyectoPostfix/src/main/java/org/uvg/Aplicacion.java
-/Users/fatu/ProyectoPostfix/src/main/java/org/uvg/CalculadoraExpresiones.java
-/Users/fatu/ProyectoPostfix/src/main/java/org/uvg/CalculadoraPostfix.java
-/Users/fatu/ProyectoPostfix/src/main/java/org/uvg/PilaVector.java
-/Users/fatu/ProyectoPostfix/src/main/java/org/uvg/Stack.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/Stack.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/Aplicacion.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/PilaVector.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/CalculadoraExpresiones.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/CalculadoraPostfix.java
+/Users/fatu/Documents/GitHub/ProyectoPostfix/src/main/java/org/uvg/InterpretePostfix.java
