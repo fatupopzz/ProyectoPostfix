@@ -46,3 +46,7 @@
 - **Emilio**: CalculadoraPostfix
 - **Fátima**: Intérprete + Aplicación
 
+## Uso
+1. Crear archivo datos.txt en la raíz del proyecto
+2. Escribir expresión postfix (ejemplo: "1 3 + 5 *")
+3. Ejecutar
