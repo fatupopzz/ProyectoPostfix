@@ -6,7 +6,8 @@
 
 ## Diagrama de secuencia 
 
-![image](https://github.com/user-attachments/assets/6f782907-b8be-4076-a1c1-f459c74b768f)
+![image](https://github.com/user-attachments/assets/5ba38eb5-3d40-4e61-9db6-205444d894cd)
+
 
 ### Stack<E>
 - Interface que define operaciones básicas de pila
