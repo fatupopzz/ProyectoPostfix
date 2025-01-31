@@ -14,29 +14,21 @@ package org.uvg;
  * 4. Coordinar entregas del equipo
  */
 
-
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class Aplicacion {
     public static void main(String[] args) {
-        InterpretePostfix interprete = new InterpretePostfix();
-        CalculadoraExpresiones calc = new CalculadoraPostfix();
+        // Usar la calculadora adaptada
+        CalculadoraExpresiones calc = new CalculadoraPostfix(); //esto se cambia siempre por AdaptadorCalculadora
         
         try {
-            String linea = new String(Files.readAllBytes(Paths.get("datos.txt"))).trim();
-            System.out.println("Entrada: " + linea);
-            
-            String expresion = interprete.prepararExpresion(linea);
+            String expresion = new String(Files.readAllBytes(Paths.get("datos.txt"))).trim();
+            System.out.println("Expresión: " + expresion);
             int resultado = calc.evaluarExpresion(expresion);
-            
             System.out.println("Resultado: " + resultado);
-            
-        } catch (IOException e) {
-            System.out.println("Error leyendo archivo: " + e.getMessage());
-        } catch (IllegalArgumentException | ArithmeticException e) {
-            System.out.println("Error evaluando: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
