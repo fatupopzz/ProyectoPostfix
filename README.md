@@ -27,9 +27,8 @@ Implementación de un evaluador de expresiones matemáticas en notación postfix
 ### Componentes Principales
 - **Stack<E>**: Interface para operaciones de pila
 - **PilaVector<E>**: Implementación de pila usando Vector
-- **CalculadoraExpresiones**: Interface para evaluación
+- **Calculadora**: Interface para evaluación
 - **CalculadoraPostfix**: Evaluador de expresiones
-- **AdaptadorCalculadora**: Permite usar calculadoras de otros grupos
 - **Aplicacion**: Programa principal
 
 ### Interoperabilidad
