@@ -31,11 +31,6 @@ Implementación de un evaluador de expresiones matemáticas en notación postfix
 - **CalculadoraPostfix**: Evaluador de expresiones
 - **Aplicacion**: Programa principal
 
-### Interoperabilidad
-El proyecto incluye un adaptador que permite:
-- Usar calculadoras de otros grupos
-- Mantener compatibilidad entre diferentes implementaciones
-- Integrar código sin modificar implementaciones originales
 
 ## Uso
 1. Usar el archivo datos.txt en la raíz del proyecto
