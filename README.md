@@ -9,44 +9,36 @@
 ![image](https://github.com/user-attachments/assets/5ba38eb5-3d40-4e61-9db6-205444d894cd)
 
 
-### Stack<E>
-- Interface que define operaciones básicas de pila
-- Proporcionada por el auxiliar
-- Métodos: push(), pop(), peek(), empty(), size()
+## Descripción
+Implementación de un evaluador de expresiones matemáticas en notación postfix, utilizando un ADT Stack genérico y adaptadores para interoperabilidad entre grupos.
 
-### PilaVector<E> (Emilio)
-- Implementación de Stack usando Vector
-- Estructura dinámica que crece según necesidad
-- Maneja excepciones para pila vacía
+## Integrantes
+- Emilio: Implementación CalculadoraPostfix
+- Damián: Implementación PilaVector y pruebas
+- Fátima: Intérprete, adaptador y programa principal
 
-### CalculadoraExpresiones
-- Interface que define el contrato común
-- Permite interoperabilidad entre grupos
-- Método: evaluarExpresion()
+## Estructura del Proyecto
 
-### CalculadoraPostfix (Damian)
-- Implementa CalculadoraExpresiones
-- Evalúa expresiones postfix
-- Usa Stack para procesar operandos/operadores
-- Maneja errores matemáticos
+### ADT Stack<E>
+- Interface genérica para operaciones de pila
+- Operaciones: push, pop, peek, empty, size
+- Implementación usando Vector en PilaVector<E>
 
-### InterpretePostfix (Fátima)
-- Procesa entrada del archivo datos.txt
-- Valida formato y tokens
-- Prepara expresión para evaluación
+### Componentes Principales
+- **Stack<E>**: Interface para operaciones de pila
+- **PilaVector<E>**: Implementación de pila usando Vector
+- **CalculadoraExpresiones**: Interface para evaluación
+- **CalculadoraPostfix**: Evaluador de expresiones
+- **AdaptadorCalculadora**: Permite usar calculadoras de otros grupos
+- **Aplicacion**: Programa principal
 
-### Aplicacion (Fátima)
-- Punto de entrada del programa
-- Integra intérprete y calculadora
-- Lee archivo y muestra resultados
-
-
-## Equipo
-- **Damián**: PilaVector + Testing
-- **Emilio**: CalculadoraPostfix
-- **Fátima**: Intérprete + Aplicación
+### Interoperabilidad
+El proyecto incluye un adaptador que permite:
+- Usar calculadoras de otros grupos
+- Mantener compatibilidad entre diferentes implementaciones
+- Integrar código sin modificar implementaciones originales
 
 ## Uso
-1. Crear archivo datos.txt en la raíz del proyecto
-2. Escribir expresión postfix (ejemplo: "1 3 + 5 *")
+1. Usar el archivo datos.txt en la raíz del proyecto
+2. Escribir expresión postfix 
 3. Ejecutar
