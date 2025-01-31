@@ -42,4 +42,29 @@ public class CalculadoraTest {
         assertThrows(ArithmeticException.class, () -> 
             calculadora.evaluarExpresion("5 0 /"));
     }
+
+    @Test 
+    void testNegativeNumbers() {
+    assertEquals(-5, calculadora.evaluarExpresion("0 5 -"));
+    assertEquals(-6, calculadora.evaluarExpresion("2 8 -"));
+    assertEquals(-15, calculadora.evaluarExpresion("5 4 * 35 -"));
+    }
+
+
+    @Test
+    void testInvalidExpressions() {
+    assertThrows(IllegalStateException.class, () -> 
+        calculadora.evaluarExpresion("1 2 3 +"));
+    assertThrows(IllegalStateException.class, () -> 
+        calculadora.evaluarExpresion("+ 1 2"));
+    assertThrows(IllegalStateException.class, () -> 
+        calculadora.evaluarExpresion("1 + 2"));
+    }
+
+    @Test
+    void testZeroCases() {
+    assertEquals(0, calculadora.evaluarExpresion("0 0 *"));
+    assertEquals(0, calculadora.evaluarExpresion("5 0 *"));
+    assertEquals(0, calculadora.evaluarExpresion("0 5 *"));
+    }
 }

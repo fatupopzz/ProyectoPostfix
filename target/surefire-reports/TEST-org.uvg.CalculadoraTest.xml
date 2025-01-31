@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.uvg.CalculadoraTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.uvg.CalculadoraTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,10 +12,10 @@
     <property name="user.country" value="GT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire/surefirebooter-20250129174822779_3.jar /Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire 2025-01-29T17-48-22_745-jvmRun1 surefire-20250129174822779_1tmp surefire_0-20250129174822779_2tmp"/>
+    <property name="sun.java.command" value="/Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire/surefirebooter-20250130215055828_3.jar /Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire 2025-01-30T21-50-55_800-jvmRun1 surefire-20250130215055828_1tmp surefire_0-20250130215055828_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="org.uvg.CalculadoraTest#testDivisionByZero"/>
+    <property name="test" value="org.uvg.CalculadoraTest#testZeroCases"/>
     <property name="surefire.test.class.path" value="/Users/fatu/Documents/GitHub/ProyectoPostfix/target/test-classes:/Users/fatu/Documents/GitHub/ProyectoPostfix/target/classes:/Users/fatu/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/fatu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/fatu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/fatu/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/fatu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/fatu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/fatu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/fatu/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/fatu"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire/surefirebooter-20250129174822779_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fatu/Documents/GitHub/ProyectoPostfix/target/surefire/surefirebooter-20250130215055828_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -59,5 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testDivisionByZero" classname="org.uvg.CalculadoraTest" time="0.009"/>
+  <testcase name="testZeroCases" classname="org.uvg.CalculadoraTest" time="0.008"/>
 </testsuite>
