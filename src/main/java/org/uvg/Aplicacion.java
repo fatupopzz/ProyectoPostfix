@@ -20,7 +20,7 @@ import java.nio.file.Paths;
 public class Aplicacion {
     public static void main(String[] args) {
         // Usar la calculadora adaptada
-        CalculadoraExpresiones calc = new CalculadoraPostfix(); //esto se cambia siempre por AdaptadorCalculadora
+        CalculadoraExpresiones calc = new Calculadora(); //esto se cambia por lo de otro grupo
         
         try {
             String expresion = new String(Files.readAllBytes(Paths.get("datos.txt"))).trim();
